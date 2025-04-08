@@ -38,6 +38,7 @@ public class PaymentController {
     private final VnPayService vnPayService;
     private final BookingRepository bookingRepository;
     private final InvoiceRepository invoiceRepository;
+    // thanh toans
     @PostMapping("/create")
     public ResponseEntity<?> createBooking(@AuthenticationPrincipal UserDetails userDetails,
                                            @ModelAttribute BookingDTO bookingDTO,
