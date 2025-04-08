@@ -23,7 +23,8 @@ import java.security.GeneralSecurityException;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
-
+//Google login controller
+//Xác thực người dùng với Google và tạo JWT cho hệ thống của bạn
 @RestController
 @RequestMapping("/auth/google")
 @RequiredArgsConstructor
